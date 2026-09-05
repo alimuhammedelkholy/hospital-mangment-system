@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Domain", "src\HMS.Domain\HMS.Domain.csproj", "{0EA5E5FB-1B78-42AB-A378-005D23FA7CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Application", "src\HMS.Application\HMS.Application.csproj", "{99B5E8D2-BE22-4CF0-B5C9-1EC3172E36E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Infrastructure", "src\HMS.Infrastructure\HMS.Infrastructure.csproj", "{A2EB8F35-6154-40C4-B1A1-B4B8DDCB66CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.Api", "src\HMS.Api\HMS.Api.csproj", "{F6321814-9F08-40FB-8CF9-595642733215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.UnitTests", "tests\HMS.UnitTests\HMS.UnitTests.csproj", "{E8D0470B-E849-43B0-B4F7-1DE550A62897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMS.IntegrationTests", "tests\HMS.IntegrationTests\HMS.IntegrationTests.csproj", "{24A5202F-860B-4BE9-A7FB-4E32B1BD252E}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|Any CPU = Debug|Any CPU
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {0EA5E5FB-1B78-42AB-A378-005D23FA7CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {0EA5E5FB-1B78-42AB-A378-005D23FA7CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {99B5E8D2-BE22-4CF0-B5C9-1EC3172E36E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {99B5E8D2-BE22-4CF0-B5C9-1EC3172E36E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {A2EB8F35-6154-40C4-B1A1-B4B8DDCB66CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {A2EB8F35-6154-40C4-B1A1-B4B8DDCB66CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {F6321814-9F08-40FB-8CF9-595642733215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {F6321814-9F08-40FB-8CF9-595642733215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ EndGlobalSection
+EndGlobal
