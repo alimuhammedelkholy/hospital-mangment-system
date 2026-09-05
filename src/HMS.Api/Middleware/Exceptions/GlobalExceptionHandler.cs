@@ -1,9 +1,9 @@
-using HMS.Api.Contracts;
-using HMS.Domain.Common;
+using HMS.Api.Contracts.Errors;
+using HMS.Domain.Common.Exceptions;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace HMS.Api.Middleware;
+namespace HMS.Api.Middleware.Exceptions;
 
 public sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger) : IExceptionHandler
 {

@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace HMS.Infrastructure.Persistence;
+namespace HMS.Infrastructure.Persistence.Context;
 
 /// <summary>SQL Server context reserved for mappings derived from the approved database schema.</summary>
 public sealed class HmsDbContext(DbContextOptions<HmsDbContext> options) : DbContext(options)

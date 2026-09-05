@@ -1,6 +1,7 @@
-using HMS.Application.Abstractions;
+using HMS.Application.Abstractions.Persistence;
+using HMS.Infrastructure.Persistence.Context;
 
-namespace HMS.Infrastructure.Persistence;
+namespace HMS.Infrastructure.Persistence.UnitOfWork;
 
 internal sealed class EfUnitOfWork(HmsDbContext dbContext) : IUnitOfWork
 {

@@ -1,5 +1,6 @@
-using HMS.Application.Abstractions;
-using HMS.Infrastructure.Persistence;
+using HMS.Application.Abstractions.Persistence;
+using HMS.Infrastructure.Persistence.Context;
+using HMS.Infrastructure.Persistence.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;

@@ -1,4 +1,4 @@
-namespace HMS.Application.Abstractions;
+namespace HMS.Application.Abstractions.Persistence;
 
 public interface IUnitOfWork
 {

@@ -1,4 +1,4 @@
-using HMS.Api.Middleware;
+using HMS.Api.Middleware.Exceptions;
 using HMS.Application;
 using HMS.Infrastructure;
 
